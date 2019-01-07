@@ -1,0 +1,13 @@
+<p>
+  parent2 works!
+</p>
+
+<div  *ngIf="data" class="div1" >
+<!-- <div *ngFor="let obj of value">value of data is {{obj.Summary}} -->
+    {{data.Summary}}
+    {{data.Editor}}
+    {{data.date}}
+    {{data.Description}}    
+    <img src={{data.NewsPic}}  width='150px' alt="this pic is not exit">
+    </div>
+
