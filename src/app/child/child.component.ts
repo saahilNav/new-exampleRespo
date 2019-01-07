@@ -18,14 +18,5 @@ public value:any;
     this.interactionService.valueChange.subscribe(data=>{this.value=data
       console.log("child data")}
       )
-//   this.interactionService.valueChange.subscribe(value => this.value2=value); 
 }
-setValue(){
-
-//   this.interactionService.setValue([{Description:'No description please',Editor:'new Shiv',NewsPic:'assets/flower.jpg'}]);
-}
-// setValue(data){
-//    this.interactionService.setValue(data);
-//   console.log(data ,"child data")
-// }
 }
